@@ -1,8 +1,11 @@
+import { Section } from "./Section.styled"
+import { Text } from "./Text.styled"
+
 export default function Interests() {
     return (
-        <div className="about">
+        <Section>
             <h2>Interests</h2>
-            <p>Active watcher. Walking fanatic. Ceramic maker. Plant lover. Reader. Mental health advocate.</p>
-        </div>
+            <Text>Active watcher. Walking fanatic. Ceramic maker. Plant lover. Reader. Mental health advocate.</Text>
+        </Section>
     )
 }
