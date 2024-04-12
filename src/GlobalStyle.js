@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
         background: #23252C;
         font-family: Inter, sans-serif;
         color: #ffffff;
